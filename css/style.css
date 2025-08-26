@@ -1,10 +1,10 @@
-/* Body & container background */
+
 body {
   background-color: #d3d3d3; 
   display: flex;
   justify-content: center;
-  padding: 2rem; 
-  font-family: Arial, sans-serif;
+  padding: 1rem; 
+  font-family: Muli, sans-serif;
 }
 
 .container {
@@ -14,9 +14,9 @@ body {
   gap: 1rem;
 }
 
-/* Header */
+
 header {
-  background-color: #9b2c7d; /* purple */
+  background-color: #9b2c7d; 
   color: white;
   text-align: center;
   padding: 1rem;
@@ -24,9 +24,9 @@ header {
   font-weight: bold;
 }
 
-/* Articles container */
+
 .articles {
-  background-color: #2ecc71; /* green */
+  background-color: #2ecc71; 
   padding: 1rem;
   border-radius: 8px;
   display: flex;
@@ -34,9 +34,9 @@ header {
   gap: 0.5rem;
 }
 
-/* Individual articles */
+
 article {
-  background-color: #e91e63; /* pink/red */
+  background-color: #e91e63; 
   color: white;
   text-align: center;
   padding: 1rem;
@@ -45,9 +45,9 @@ article {
   margin: 1rem;
 }
 
-/* Aside */
+
 aside {
-  background-color: #1565c0; /* blue */
+  background-color: #1565c0; 
   color: white;
   text-align: center;
   padding: 1rem;
@@ -55,9 +55,9 @@ aside {
   font-weight: bold;
 }
 
-/* Footer */
+
 footer {
-  background-color: #f57c00; /* orange */
+  background-color: #f57c00;
   color: white;
   text-align: center;
   padding: 1rem;
@@ -65,9 +65,9 @@ footer {
   font-weight: bold;
 }
 
-/* Responsive: optional */
+
 @media (max-width: 400px) {
   .container {
-    width: 90%; /* shrink for very small screens */
+    width: 90%; 
   }
 }
