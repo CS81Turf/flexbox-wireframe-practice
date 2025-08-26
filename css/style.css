@@ -1,0 +1,73 @@
+/* Body & container background */
+body {
+  background-color: #d3d3d3; 
+  display: flex;
+  justify-content: center;
+  padding: 2rem; 
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 300px; 
+  gap: 1rem;
+}
+
+/* Header */
+header {
+  background-color: #9b2c7d; /* purple */
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+/* Articles container */
+.articles {
+  background-color: #2ecc71; /* green */
+  padding: 1rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* Individual articles */
+article {
+  background-color: #e91e63; /* pink/red */
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+/* Aside */
+aside {
+  background-color: #1565c0; /* blue */
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  background-color: #f57c00; /* orange */
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+/* Responsive: optional */
+@media (max-width: 400px) {
+  .container {
+    width: 90%; /* shrink for very small screens */
+  }
+}
